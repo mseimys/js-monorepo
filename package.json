@@ -1,0 +1,7 @@
+{
+  "name": "js-monorepo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}
