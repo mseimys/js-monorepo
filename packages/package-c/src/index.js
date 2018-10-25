@@ -1,5 +1,6 @@
+import b from '@js-monorepo/package-b';
+
 var a = require('@js-monorepo/package-a');
-var b = require('@js-monorepo/package-b');
 
 function func() {
     console.log('C Package');
@@ -8,4 +9,4 @@ function func() {
     b.test2();
 }
 
-module.exports = func
+func();
